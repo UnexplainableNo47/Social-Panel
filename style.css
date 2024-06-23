@@ -1,0 +1,95 @@
+/*
+ My Font guide
+12px = 0.75rem
+14px = 0.875rem
+16px = 1rem (base)
+18px = 1.125rem
+20px = 1.25rem
+24px = 1.5rem
+30px = 1.875rem
+32px = 2rem
+*/
+*{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+  font-size: 0.875rem;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+.container{
+    background-color: hsl(0, 0%, 8%);
+    height: 90vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-panel{
+    background-color: hsl(0, 0%, 12%);
+    width: 380px;
+    height: 510px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.avatar{
+    display: flex;
+    align-self: center;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+ul{
+   list-style: none; 
+   align-items: center;
+   margin: auto;
+}
+li{
+    width: 330px;
+    height: 45px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7.5px;
+    text-align: center;
+    margin: 10px auto;
+    vertical-align: middle;
+    line-height: 45px;   
+}
+li:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:hsl(0, 0%, 12%);
+}
+.h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.h2{
+    font-size: 3;
+}
+.h3{
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+footer{
+    background-color:  hsl(0, 0%, 8%);
+    height: 10vh;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width: 400px) {
+    .main-panel{
+        width: 325px;
+    }
+  }
