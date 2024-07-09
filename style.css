@@ -52,6 +52,7 @@ ul{
    margin: auto;
 }
 li{
+    transition: 2s;
     width: 330px;
     height: 45px;
     background-color: hsl(0, 0%, 20%);
